@@ -1,0 +1,136 @@
+*{
+   background-color: #031926;
+   font-family: 'Inter';
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 100%;
+}
+
+:root {
+    --color_primario: #468189;
+    --color_secundario: #9DBEBB;
+    --color_terciario: #031926;
+    --color_cuaternario: #77ACA2;
+    --color_texto: #F4E9CD;
+}
+
+.logo1 {
+    padding-top: 15px;
+    margin-left: 10px;
+    width: 7%;
+}
+
+.logo2 {
+    padding-top: 15px;
+    margin-left: 1060px;
+    width: 7%;
+}
+
+main {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+}
+
+.text-area {
+    border: none;
+    color: var(--color_texto);
+    text-transform: lowercase;
+}
+::placeholder {color: var(--color_texto);}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensaje {
+    border: none;
+    background-image: url(/assets/simpson.gif);
+    background-position: 50%;
+    background-color: var(--color_secundario);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: var(--color_texto);
+    margin-left: 98px; 
+    padding-left: 20px;
+    position: absolute;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-desencriptar {
+    background-color: var(--color_texto);
+    border: 1px solid var(--color_terciario);
+    border-radius: 18px;
+    color: var(--color_terciario);
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.btn-encriptar {
+    background-color: var(--color_secundario);
+    border: 1px solid var(--color_secundario);
+    border-radius: 18px;
+    color: var(--color_terciario);
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.btn-copiar {
+    background-color: var(--color_secundario);
+    border: 1px solid var(--color_secundario);
+    border-radius: 18px;
+    color: var(--color_terciario);
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 440px;
+    position: absolute;
+}
+
+.btn-pegar {
+    background-color: var(--color_secundario);
+    border: 1px solid var(--color_secundario);
+    border-radius: 18px;
+    color: var(--color_terciario);
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.informacion {
+    font-size: 13px;
+    color: var(--color_texto);
+}
+
+.footer1 {
+    background-color:var(--color_terciario);
+    padding: 20px;
+    color: var(--color_texto);
+    text-align: center;
+}
+
+.footer2 {
+    background-color: #F4E9CD;
+    padding: 20px;
+    color: var(--color_texto);
+    text-align: center;
+    font-family: var(--fuente_times);
+}
+.logo_footer {
+    width: 10%;
+    background: #F4E9CD;
+}

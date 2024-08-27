@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header> 
+        <img class="logo1" src="/assets/Alura_logo.png" alt="logo de alura">
+        <img class="logo2" src="/assets/ONE_logo.png" alt="logo de ONE">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="63" rows="20" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button class="btn-pegar" onclick="btnPegar()">Pegar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="55" rows="20"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer1">
+        <p>Desarrollado por: Rafael Antonio Gantiva Ortiz</p>
+        
+    </footer>
+    <footer class="footer2">
+        <img class="logo_footer" src="/assets/Rafa_logo2.png" alt="">
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
